@@ -29,6 +29,16 @@ const routes:Array<RouteRecordRaw> = [
       parentId:0
     },
     children:[
+     {
+      path:'/department',
+      component: () => import('../views/system/Department/Department.vue'),
+      name:'department',
+      meta:{
+        title:'机构管理',
+        icon:'Menu',
+        roles:['sys:dept']
+      }
+     },
       {
         path:'/userList',
         component: () => import('../views/system/User/UserList.vue'),

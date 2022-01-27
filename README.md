@@ -1,4 +1,4 @@
-# vue3+ts+vite
+# Vue3-Element-Plus-Ts-Vite2
 
 ## Vite 需要node.js版本 >=12.0.0
 
@@ -149,7 +149,7 @@ module.exports = {
 ```
 
 ## Element Plus图标
-```
+```txt
 npm i @element-plus/icons
 npm uninstall @element-plus/icons
 import {Fold} from '@element-plus/icons'
