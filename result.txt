@@ -1,0 +1,54 @@
+E:\CoreCode\my-svn\Vue\vue3-ts
+├─.gitignore
+├─index.html
+├─package-lock.json
+├─package.json
+├─README.md
+├─result.txt
+├─tsconfig.json
+├─vite.config.ts
+├─src
+|  ├─App.vue
+|  ├─env.d.ts
+|  ├─main.ts
+|  ├─views
+|  |   ├─system
+|  |   |   ├─User
+|  |   |   |  └UserList.vue
+|  |   |   ├─Role
+|  |   |   |  └RoleList.vue
+|  |   |   ├─Menu
+|  |   |   |  └MenuList.vue
+|  |   |   ├─config
+|  |   |   |   └SystemDocument.vue
+|  |   ├─goods
+|  |   |   ├─goodsCategory
+|  |   |   |       └GoodsCategory.vue
+|  ├─store
+|  |   ├─index.ts
+|  |   ├─type
+|  |   |  └index.ts
+|  ├─router
+|  |   └index.ts
+|  ├─loyout
+|  |   ├─index.vue
+|  |   ├─tabs
+|  |   |  └Tabs.vue
+|  |   ├─menu
+|  |   |  ├─MenuBar.vue
+|  |   |  ├─MenuItem.vue
+|  |   |  └MenuLogo.vue
+|  |   ├─header
+|  |   |   ├─BreadCom.vue
+|  |   |   ├─Collapse.vue
+|  |   |   └Header.vue
+|  |   ├─dashboard
+|  |   |     └index.vue
+|  ├─components
+|  |     └HelloWorld.vue
+|  ├─assets
+|  |   ├─logo.png
+|  |   ├─images
+|  |   |   └element-plus-logo.svg
+├─public
+|   └favicon.ico
